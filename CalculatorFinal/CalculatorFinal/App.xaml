@@ -1,0 +1,14 @@
+﻿<Application x:Class="CalculatorFinal.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CalculatorFinal"
+             xmlns:calculatorView="clr-namespace:CalculatorFinal.Views.Calculator"
+             Startup="App_OnStartup">
+    <Application.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="CalculatorViewTemplate">
+                <calculatorView:CalculatorView />
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
